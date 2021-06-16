@@ -105,7 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+# https://docs.djangoproject.com/en/3.2/ref/settings/#std:setting-TIME_ZONE
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
