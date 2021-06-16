@@ -11,3 +11,9 @@ pip install django
 ```
 django-admin startproject django_demo .
 ```
+
+创建数据库
+
+```
+python manage.py migrate
+```
