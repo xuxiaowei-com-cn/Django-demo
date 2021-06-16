@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('home.urls')),
     path('tests/', include('tests.urls')),
     path('tests/apis/', include('tests.apis.urls')),
+    path('tests/apis/api1', include('tests.apis.api1.urls')),
 ]
