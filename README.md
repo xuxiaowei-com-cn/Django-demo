@@ -39,6 +39,12 @@ python manage.py makemigrations django_demo
 python manage.py migrate
 ```
 
+- 编写视图
+
+```
+python manage.py startapp home
+```
+
 ## Django shell
 
 ```
