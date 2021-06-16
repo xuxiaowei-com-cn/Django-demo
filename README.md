@@ -1,6 +1,8 @@
 # Django-demo
 
-## django
+## Django
+
+- [Django 文档](https://docs.djangoproject.com/zh-hans/3.2/)
 
 ```
 pip install django
