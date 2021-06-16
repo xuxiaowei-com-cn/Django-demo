@@ -31,3 +31,20 @@ python manage.py runserver 12345
 ```
 python manage.py createsuperuser
 ```
+
+- 表
+
+```
+CREATE TABLE "django_demo_topic" (
+  "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+  "text" varchar(200),
+  "date_added" datetime
+);
+
+CREATE TABLE "django_demo_entry" (
+  "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+  "topic_id" integer,
+  "text" varchar(200),
+  "date_added" datetime
+);
+```
