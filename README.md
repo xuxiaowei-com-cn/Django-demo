@@ -39,7 +39,7 @@ python manage.py makemigrations django_demo
 python manage.py migrate
 ```
 
-- Django shell
+## Django shell
 
 ```
 python manage.py shell
