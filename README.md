@@ -25,3 +25,9 @@ python manage.py migrate
 ```
 python manage.py runserver 12345
 ```
+
+- 创建超级用户
+
+```
+python manage.py createsuperuser
+```
