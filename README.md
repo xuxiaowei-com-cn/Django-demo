@@ -17,3 +17,9 @@ django-admin startproject django_demo .
 ```
 python manage.py migrate
 ```
+
+查看项目
+
+```
+python manage.py runserver 12345
+```
