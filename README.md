@@ -38,3 +38,18 @@ python manage.py createsuperuser
 python manage.py makemigrations django_demo
 python manage.py migrate
 ```
+
+- Django shell
+
+```
+python manage.py shell
+from django_demo.models import Topic
+
+topics = Topic.objects.all()
+for topic in topics:
+    print(topic.id, topic)
+
+t = Topic.objects.get(id=1)
+t.text
+t.entry_set.all()
+```
