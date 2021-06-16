@@ -44,6 +44,7 @@ python manage.py migrate
 ```
 python manage.py startapp home
 python manage.py startapp tests
+python manage.py startapp apis
 ```
 
 ## Django shell
